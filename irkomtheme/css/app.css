@@ -8132,6 +8132,8 @@ button.close {
 
 .navbar {
   margin-bottom: 0; }
+  .navbar a {
+    color: #ffffff !important; }
   .navbar .fa {
     font-size: 18px; }
 
@@ -8149,7 +8151,8 @@ button.close {
 .section-a {
   padding: 30px 0;
   text-align: center;
-  background: #1a8c97; }
+  background: #1a8c97;
+  color: #ffffff; }
   .section-a .fa {
     font-size: 60px; }
 
