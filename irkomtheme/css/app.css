@@ -8130,6 +8130,25 @@ button.close {
   overflow: visible;
   clip: auto; }
 
+#header .overlay {
+  background-color: #0b3b40; }
+#header .header-top {
+  background-color: black;
+  padding: 10px 0;
+  margin-bottom: 70px; }
+  #header .header-top .social-media-heading-top a {
+    font-size: 20px;
+    color: white; }
+  #header .header-top .social-media-heading-top i.fa {
+    margin: 0 15px; }
+  #header .header-top .social-media-heading-top i.fa:hover {
+    color: #1a8c97;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease; }
+
 .navbar {
   margin-bottom: 0; }
   .navbar a {

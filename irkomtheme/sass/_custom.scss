@@ -1,3 +1,34 @@
+#header{
+  .overlay{
+    background-color: darken($main-color, 20%);
+  }
+
+  .header-top{
+
+    background-color: black;
+    padding: 10px 0;
+    margin-bottom: 70px;
+
+    .social-media-heading-top a{
+      font-size: 20px;
+      color: white;
+    }
+
+    .social-media-heading-top i.fa{
+      margin: 0 15px;
+    }
+
+    .social-media-heading-top i.fa:hover{
+      color: $main-color;
+    	transition: all 1s ease;
+    	-webkit-transition: all 1s ease;
+    	   -moz-transition: all 1s ease;
+    	    -ms-transition: all 1s ease;
+    	     -o-transition: all 1s ease;
+    }
+  }
+}
+
 .navbar{
   margin-bottom: 0;
   a{
