@@ -8173,4 +8173,9 @@ button.close {
   .section-c .btn-primary {
     background: #13646b; }
 
+footer {
+  padding: 30px 0;
+  background: #13646b;
+  color: #ffffff; }
+
 /*# sourceMappingURL=app.css.map */
