@@ -8165,4 +8165,12 @@ button.close {
 .panel-heading h4 {
   color: #ffffff; }
 
+.section-c {
+  padding: 60px 0;
+  text-align: center;
+  background: #1a8c97;
+  color: #ffffff; }
+  .section-c .btn-primary {
+    background: #13646b; }
+
 /*# sourceMappingURL=app.css.map */
