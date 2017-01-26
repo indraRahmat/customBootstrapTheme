@@ -4978,8 +4978,8 @@ tbody.collapse.in {
       margin-right: 0; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003397}}
 .navbar-default {
-  background-color: #136F63;
-  border-color: #0e534a; }
+  background-color: #2828C9;
+  border-color: #2222ad; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003401}}
   .navbar-default .navbar-brand {
     color: #0F0F0F; }
@@ -5000,7 +5000,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003425}}
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     color: #0F0F0F;
-    background-color: #0e534a; }
+    background-color: #2222ad; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003433}}
   .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
     color: #ccc;
@@ -5017,10 +5017,10 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003453}}
   .navbar-default .navbar-collapse,
   .navbar-default .navbar-form {
-    border-color: #0e534a; }
+    border-color: #2222ad; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003462}}
   .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #0e534a;
+    background-color: #2222ad;
     color: #0F0F0F; }
   @media (max-width: 767px) {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003473}}
@@ -5033,7 +5033,7 @@ tbody.collapse.in {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003482}}
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
       color: #0F0F0F;
-      background-color: #0e534a; }
+      background-color: #2222ad; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_navbar\.scss}line{font-family:\00003490}}
     .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
       color: #ccc;
@@ -6165,14 +6165,14 @@ button.list-group-item-danger {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_panels\.scss}line{font-family:\000036}}
   .panel-default > .panel-heading {
     color: #333333;
-    background-color: #136F63;
+    background-color: #2828C9;
     border-color: #ddd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000311}}
     .panel-default > .panel-heading + .panel-collapse > .panel-body {
       border-top-color: #ddd; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000314}}
     .panel-default > .panel-heading .badge {
-      color: #136F63;
+      color: #2828C9;
       background-color: #333333; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/mixins\/_panels\.scss}line{font-family:\0000320}}
   .panel-default > .panel-footer + .panel-collapse > .panel-body {
@@ -10296,7 +10296,7 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\000032}}
 #header .overlay {
-  background-color: #041815; }
+  background-color: #171774; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\000036}}
 #header .header-top {
   background-color: black;
@@ -10311,7 +10311,7 @@ button.close {
     margin: 0 15px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000321}}
   #header .header-top .social-media-heading-top i.fa:hover {
-    color: #136F63;
+    color: #2828C9;
     transition: all 1s ease;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -10346,7 +10346,7 @@ button.close {
 .section-a {
   padding: 30px 0;
   text-align: center;
-  background: #136F63;
+  background: #2828C9;
   color: #ffffff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000363}}
   .section-a .fa {
@@ -10368,17 +10368,17 @@ button.close {
 .section-c {
   padding: 60px 0;
   text-align: center;
-  background: #136F63;
+  background: #2828C9;
   color: #ffffff; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000388}}
   .section-c .btn-primary {
-    background: #0c433c; }
+    background: #20209e; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000393}}
 .title-bar {
   background: url(../img/showcase.jpg) no-repeat 0 -300px;
   padding-bottom: 10px;
-  border-bottom: 4px solid #136F63; }
+  border-bottom: 4px solid #2828C9; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000398}}
 .main {
@@ -10387,7 +10387,7 @@ button.close {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003102}}
 footer {
   padding: 30px 0;
-  background: #0c433c;
+  background: #20209e;
   color: #ffffff; }
 
 /*# sourceMappingURL=app.css.map */
