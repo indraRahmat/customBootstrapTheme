@@ -10386,7 +10386,11 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003102}}
 footer {
-  padding: 30px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 60px;
+  padding: 15px 0;
   background: #20979f;
   color: #ffffff; }
 
