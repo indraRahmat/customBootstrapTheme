@@ -46,8 +46,115 @@
     <!--end menu header -->
 
     <!-- components list -->
+    <div class="container theme-showcase" role="main">
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="page-header">
+        <h1>Jumbotron</h1>
+      </div>
+      <div class="jumbotron">
+        <h1>Theme example</h1>
+        <p>This is a template showcasing the optional theme stylesheet included in Bootstrap what i need for my site. Use it as a starting point to create something more unique by building on or modifying it.</p>
+      </div>
 
-    <!-- end component list -->
+
+      <!-- menu components -->
+      <div class="page-header">
+        <h1>Menu</h1>
+      </div>
+      <h3>Normal Menu</h3>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">IR</a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Service</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Components</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+      <!-- end component list -->
+
+      <!-- carousel -->
+      <div class="page-header">
+        <h1>Carousel</h1>
+      </div>
+      <h3>normal carousel</h3>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide">
+            </div>
+            <div class="item">
+              <img data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide">
+            </div>
+            <div class="item">
+              <img data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="icon-prev"></span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="icon-next"></span>
+          </a>
+      </div>
+      <hr>
+      <h3>Carousel with social bar on top</h3>
+      <!-- start-header -->
+      <div id="header">
+        <div class="overlay">
+          <!-- start header top -->
+          <div class="header-top">
+            <div class="text-center">
+              <div class="social-media-heading-top">
+                <a href="#"><i class="fa fa-facebook" data-toggle="tooltip" data-placement="bottom" title="Facebook"></i></a>
+                <a href="#"><i class="fa fa-twitter" data-toggle="tooltip" data-placement="bottom" title="Twitter"></i></a>
+                <a href="#"><i class="fa fa-google-plus" data-toggle="tooltip" data-placement="bottom" title="Google Plus"></i></a>
+                <a href="#"><i class="fa fa-youtube" data-toggle="tooltip" data-placement="bottom" title="Youtube"></i></a>
+                <a href="#"><i class="fa fa-github" data-toggle="tooltip" data-placement="bottom" title="Github"></i></a>
+                <a href="#"><i class="fa fa-linkedin" data-toggle="tooltip" data-placement="bottom" title="Linkedin"></i></a>
+                <a href="#"><i class="fa fa-flickr" data-toggle="tooltip" data-placement="bottom" title="Flickr"></i></a>
+                <a href="#"><i class="fa fa-skype" data-toggle="tooltip" data-placement="bottom" title="Skype"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- end start header top -->
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-lg-offset-4 col-md-4">
+                <div class="text-center">
+                  <div class="user">
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  <!-- end -->
+      <!--end carousel -->
+
+
+    </div>
+
 
     <footer>
       <div class="container">
@@ -56,6 +163,7 @@
     </footer>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"
+    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="bower_components/holderjs/holder.js"></script>
   </body>
 </html>

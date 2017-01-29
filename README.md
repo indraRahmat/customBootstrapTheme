@@ -5,6 +5,7 @@ sass-lang.com
 npm
 bower v1.8.0
 koala
+holderjs latest version
 
 tools:
 koala v2.0.4  www.koala-app.com open source
@@ -22,3 +23,6 @@ steps by steps
 
 4. install font awesome by bower
 - "> bower install font-awesome --save"
+
+5. install holderjs by bower
+- "> bower install holderjs --save"

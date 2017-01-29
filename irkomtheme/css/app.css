@@ -5417,7 +5417,7 @@ a.badge:hover, a.badge:focus {
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 30px;
-  color: inherit;
+  color: #a9e5e9;
   background-color: #eeeeee; }
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/bower_components\/bootstrap-sass\/assets\/stylesheets\/bootstrap\/_jumbotron\.scss}line{font-family:\0000313}}
   .jumbotron h1,
@@ -10385,11 +10385,28 @@ button.close {
   margin-top: 30px; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003102}}
+.bigheader {
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003106}}
+.jumbotron {
+  margin-top: 20px;
+  background: #a9e5e9;
+  color: #0F0F0F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003112}}
+.carousel {
+  margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003114}}
+  .carousel a {
+    color: #ffffff !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003117}}
+  .carousel .fa {
+    font-size: 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003122}}
 footer {
-  width: 100%;
-  position: absolute;
-  bottom: 0;
-  height: 60px;
+  margin-top: 20px;
   padding: 15px 0;
   background: #20979f;
   color: #ffffff; }
