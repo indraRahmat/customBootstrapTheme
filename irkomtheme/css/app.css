@@ -10345,14 +10345,14 @@ button.close {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000357}}
 .navbar.navbar-fixed-top.fixed-theme {
-  border-color: black;
+  border-color: #176e75;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.4); }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000363}}
 .navbar-container.fixed-theme {
   padding: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000367}}
 .navbar-brand.fixed-theme,
 .navbar-container.fixed-theme,
 .navbar.navbar-fixed-top.fixed-theme,
@@ -10361,106 +10361,98 @@ button.close {
   transition: 0.8s;
   -webkit-transition: 0.8s;
   background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000377}}
   .navbar-brand.fixed-theme .fixed-theme li a,
   .navbar-container.fixed-theme .fixed-theme li a,
   .navbar.navbar-fixed-top.fixed-theme .fixed-theme li a,
   .navbar-brand .fixed-theme li a,
   .navbar-container .fixed-theme li a {
     font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000380}}
   .navbar-brand.fixed-theme .fixed-theme li.active a,
   .navbar-container.fixed-theme .fixed-theme li.active a,
   .navbar.navbar-fixed-top.fixed-theme .fixed-theme li.active a,
   .navbar-brand .fixed-theme li.active a,
   .navbar-container .fixed-theme li.active a {
-    background-color: transparent;
-    text-color: red; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000383}}
-  .navbar-brand.fixed-theme .fixed-theme .navbar a,
-  .navbar-container.fixed-theme .fixed-theme .navbar a,
-  .navbar.navbar-fixed-top.fixed-theme .fixed-theme .navbar a,
-  .navbar-brand .fixed-theme .navbar a,
-  .navbar-container .fixed-theme .navbar a {
-    color: red; }
+    background-color: transparent; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000387}}
 .showcase {
   background: url(../img/showcase.jpg) no-repeat 0 -100px;
   height: 600px;
   padding: 30px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000392}}
   .showcase h1 {
     font-size: 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\0000396}}
   .showcase .container {
     background: #fff;
     opacity: 0.8;
     padding: 20px 30px 30px 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003105}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003103}}
 .section-a {
   padding: 30px 0;
   text-align: center;
   background: #28bfca;
   color: #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003108}}
   .section-a .fa {
     font-size: 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003115}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003113}}
 .section-b {
   background: #e6ebf1;
   padding: 30px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003117}}
   .section-b img {
     width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003123}}
 .panel-heading h4 {
   color: #ffffff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003127}}
 .section-c {
   padding: 60px 0;
   text-align: center;
   background: #28bfca;
   color: #ffffff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003133}}
   .section-c .btn-primary {
     background: #20979f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003138}}
 .title-bar {
   background: url(../img/showcase.jpg) no-repeat 0 -300px;
   padding-bottom: 10px;
   border-bottom: 4px solid #28bfca; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003143}}
 .main {
   margin-top: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003147}}
 .bigheader {
   margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003153}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003151}}
 .jumbotron {
   margin-top: 20px;
   background: #a9e5e9;
   color: #0F0F0F; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003157}}
 .carousel {
   margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003159}}
   .carousel a {
     color: #ffffff !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003162}}
   .carousel .fa {
     font-size: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/irahmat\/udemy\/custom\%20bootstrap\%20theme\%20with\%20sass\/irkomtheme\/sass\/_custom\.scss}line{font-family:\00003167}}
 footer {
   margin-top: 20px;
   padding: 15px 0;

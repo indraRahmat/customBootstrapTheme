@@ -55,9 +55,10 @@
 }
 
 .navbar.navbar-fixed-top.fixed-theme {
-    border-color: black;
+    border-color: darken($main-color, 20%);
     box-shadow: 0 0 5px rgba(0,0,0,.4);
 }
+
 
 .navbar-container.fixed-theme {
     padding: 0;
@@ -78,11 +79,8 @@
       }
       li.active a  {
         background-color: transparent ;
-        text-color: red;
       }
-      .navbar a{
-        color: red;
-      }
+
     }
 }
 
