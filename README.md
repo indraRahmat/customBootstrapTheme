@@ -6,6 +6,7 @@ npm
 bower v1.8.0
 koala
 holderjs latest version
+owl latest version
 
 tools:
 koala v2.0.4  www.koala-app.com open source
@@ -26,3 +27,6 @@ steps by steps
 
 5. install holderjs by bower
 - "> bower install holderjs --save"
+
+6. install owl by bower
+- "> bower install owl --save"
