@@ -8481,22 +8481,6 @@ button.close {
 */
 #header .overlay {
   background-color: #176e75; }
-#header .header-top {
-  background-color: black;
-  padding: 10px 0;
-  margin-bottom: 70px; }
-  #header .header-top .social-media-heading-top a {
-    font-size: 20px;
-    color: white; }
-  #header .header-top .social-media-heading-top i.fa {
-    margin: 0 15px; }
-  #header .header-top .social-media-heading-top i.fa:hover {
-    color: #28bfca;
-    transition: all 1s ease;
-    -webkit-transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
-    -o-transition: all 1s ease; }
 #header .user img {
   width: 160px;
   height: 160px;
@@ -8683,6 +8667,9 @@ button.close {
 
 .panel img {
   margin-top: 5px; }
+
+.blog-header {
+  margin-top: 100px; }
 
 footer {
   margin-top: 5px;
