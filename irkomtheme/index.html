@@ -8,13 +8,14 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Custome bootstrap theme with sass</title>
 
-      <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app.css">
   </head>
 
   <body>
 
-    <nav class="navbar navbar-default">
-      <div class="container">
+    <!--menu header -->
+    <nav id="header" class="navbar navbar-default navbar-fixed-top clearfix">
+      <div id="header-container" class="container navbar-container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -22,11 +23,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">irkom theme project</a>
+          <img src="img/ir.png" id="brand">
         </div>
+
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
             <li><a href="service.html">Service</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="components.html">Components</a></li>
@@ -42,20 +45,51 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
-    <div class="showcase">
-      <div class="container">
-        <h1>first Paragraph</h1>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-        <a href="about.html" class="btn btn-primary">Read more</a>
+    <!--end menu header -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide img-responsive" src="img/first-slide.jpeg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption irkom-caption">
+              <h1>Personal Website and Blog</h1>
+              <hr>
+              <p>We have something to share and remember everything</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide img-responsive" src="img/second-slide.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption irkom-caption">
+              <h1>Learning by Doing </h1>
+              <hr>
+              <p>Simple blog and website to share knowledge and information</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+    </div><!-- /.carousel -->
 
-    <div class="section-a">
+    <!-- start section a -->
+
+    <div class="section-motto">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <i class="fa fa-html5"></i>
+            <span class="bootstrap-icons">B</span>
             <h3>Clean and Simple code</h3>
             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
           </div>
@@ -73,76 +107,97 @@
       </div>
     </div>
 
-    <div class="section-b">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                  <h4 class="panel-title">
-                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                      Collapsible Group Item #1
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingTwo">
-                  <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Collapsible Group Item #2
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-              <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingThree">
-                  <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                      Collapsible Group Item #3
-                    </a>
-                  </h4>
-                </div>
-                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                  <div class="panel-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <img src="img/cpu.jpg">
-          </div>
+    <!-- end section a -->
 
-        </div>
-      </div>
+    <div class="page-header text-center">
+      <h2>Blogs</h2>
     </div>
 
-    <div class="section-c">
+    <div class="section-blog">
       <div class="container">
         <div class="row">
-          <div class="col-md-8 col-md-offset-2">
-            <h2>Subscribe To Our Newsletter</h2>
-            <br />
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-            <hr />
-            <form>
-              <input type="text" class="form-control input-lg" placeholder="Enter Email">
-              <br />
-              <button class="btn btn-primary btn-lg btn-block">Submit</button>
-            </form>
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img data-src="holder.js/350x200/auto/#771:#100" alt="First slide">
+                <h3>First Product </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis elit odio. Sed eu convallis orci, nec pharetra dui. Proin non purus non elit vestibulum fringilla. Pellentesque consectetur ligula at metus facilisis, in efficitur felis viverra. Sed vitae convallis nunc.</p>
+                <a class="btn btn-info" href="#" role="button">View details »</a>
+                  <div class="card-author">
+                    <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                    Writer
+                  </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img data-src="holder.js/350x200/auto/#771:#100" alt="First slide">
+                <h3>First Product </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis elit odio. Sed eu convallis orci, nec pharetra dui. Proin non purus non elit vestibulum fringilla. Pellentesque consectetur ligula at metus facilisis, in efficitur felis viverra. Sed vitae convallis nunc.</p>
+                <a class="btn btn-info" href="#" role="button">View details »</a>
+                  <div class="card-author">
+                    <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                    Writer
+                  </div>
+            </div>
+          </div>
+
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+              <img data-src="holder.js/350x200/auto/#771:#100" alt="First slide">
+                <h3>First Product </h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis elit odio. Sed eu convallis orci, nec pharetra dui. Proin non purus non elit vestibulum fringilla. Pellentesque consectetur ligula at metus facilisis, in efficitur felis viverra. Sed vitae convallis nunc.</p>
+                <a class="btn btn-info" href="#" role="button">View details »</a>
+                  <div class="card-author">
+                    <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                    Writer
+                  </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="panel panel-primary">
+                <!-- Default panel contents -->
+              <div class="panel-heading">Panel heading</div>
+              <img data-src="holder.js/350x200/auto/#771:#100" alt="First slide">
+              <div class="panel-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis elit odio. Sed eu convallis orci, nec pharetra dui. Proin non purus non elit vestibulum fringilla. Pellentesque consectetur ligula at metus facilisis, in efficitur felis viverra. Sed vitae convallis nunc.</p>
+                <a class="btn btn-info" href="#" role="button">View details »</a>
+              </div>
+               <div class="panel-footer text-left ">
+                <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                  Writer
+               </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="panel panel-primary">
+                <!-- Default panel contents -->
+              <div class="panel-heading">Panel heading</div>
+              <img data-src="holder.js/350x200/auto/#771:#100" alt="First slide">
+              <div class="panel-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis elit odio. Sed eu convallis orci, nec pharetra dui. Proin non purus non elit vestibulum fringilla. Pellentesque consectetur ligula at metus facilisis, in efficitur felis viverra. Sed vitae convallis nunc.</p>
+                <a class="btn btn-info" href="#" role="button">View details »</a>
+              </div>
+               <div class="panel-footer text-left ">
+                <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                  Writer
+               </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="panel panel-primary">
+                <!-- Default panel contents -->
+              <div class="panel-heading">Panel heading</div>
+              <img data-src="holder.js/350x200/auto/#771:#100" alt="First slide">
+              <div class="panel-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis elit odio. Sed eu convallis orci, nec pharetra dui. Proin non purus non elit vestibulum fringilla. Pellentesque consectetur ligula at metus facilisis, in efficitur felis viverra. Sed vitae convallis nunc.</p>
+                <a class="btn btn-info" href="#" role="button">View details »</a>
+              </div>
+               <div class="panel-footer text-left ">
+                <img style="background-image:url(http://placekitten.com/g/400/200)" class="card-author-circle">
+                  Writer
+               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -154,7 +209,11 @@
       </div>
     </footer>
 
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"
+
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/holder.js"></script>
+        <script src="js/ir.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
   </body>
 </html>
