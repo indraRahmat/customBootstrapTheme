@@ -255,10 +255,43 @@
   bottom: 0;
 }
 
+.stories-author-circle{
+  //make it responsive
+  max-width: 100%;
+  width: 5%;
+  height: auto;
+  display: inline-flex;
+
+  //div height to be the same as width
+  padding-top: 5%;
+
+  //make it a circle
+  border-radius: 50%;
+
+  //centering image
+  background-position-y: center;
+  background-position-x: center;
+  background-repeat: no-repeat;
+
+  //make the clue thing, takes smaller dimension to fill dropdown-divider-bg
+  background-size: cover;
+
+  //it is optional, for making this div centered in parent
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 //panel
 
 .panel img{
   margin-top: 5px;
+}
+
+.panel-footer{
+  padding: 5px 5px;
 }
 
 //end panel
@@ -268,6 +301,12 @@
   margin-top: 100px;
 }
 //end blog
+
+//stories
+
+
+
+//end stories
 
 footer{
   margin-top: 5px;
