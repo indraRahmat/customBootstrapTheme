@@ -2,6 +2,17 @@
 * author: Indra Rahmat
 */
 
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container{
+  min-height: 100%;
+}
+
+
 //Header
 #header{
   .overlay{
@@ -26,6 +37,10 @@
     padding-left: 30px;
   }
 }
+
+  .related-posts{
+    margin-top: 100px;
+  }
 
 //end header
 
@@ -140,9 +155,23 @@
   p{
     text-align: justify;
   }
+  .page-header{
+    margin-top: 10px;
+  }
+}
 
-  .card-author{
-    text-align: left;
+.section-reading{
+  margin-top: 100px;
+  padding: 5px;
+  background: $reading-color;
+  color: black;
+
+  .btn-primary{
+    background: darken($main-color, 10%);
+  }
+
+  p{
+    text-align: justify;
   }
 }
 
