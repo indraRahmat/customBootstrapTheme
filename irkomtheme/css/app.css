@@ -10809,72 +10809,81 @@ html, body {
     font-size: 60px; }
 
 /* line 149, ../sass/_irkom.scss */
+.section-subscribes {
+  margin-top: 5px;
+  padding: 50px 0;
+  text-align: center; }
+  /* line 153, ../sass/_irkom.scss */
+  .section-subscribes .fa {
+    font-size: 60px; }
+
+/* line 158, ../sass/_irkom.scss */
 .section-blog {
   padding-top: 10px;
   text-align: center;
   background: #28bfca;
   color: black; }
-  /* line 155, ../sass/_irkom.scss */
+  /* line 164, ../sass/_irkom.scss */
   .section-blog .btn-primary {
     background: #20979f; }
-  /* line 159, ../sass/_irkom.scss */
+  /* line 168, ../sass/_irkom.scss */
   .section-blog p {
     text-align: justify; }
-  /* line 162, ../sass/_irkom.scss */
+  /* line 171, ../sass/_irkom.scss */
   .section-blog .page-header {
     margin-top: 10px; }
 
-/* line 167, ../sass/_irkom.scss */
+/* line 176, ../sass/_irkom.scss */
 .section-reading {
   padding: 5px;
   background: #fafafa;
   color: black; }
-  /* line 172, ../sass/_irkom.scss */
+  /* line 181, ../sass/_irkom.scss */
   .section-reading .btn-primary {
     background: #20979f; }
-  /* line 176, ../sass/_irkom.scss */
+  /* line 185, ../sass/_irkom.scss */
   .section-reading p {
     text-align: justify; }
 
-/* line 181, ../sass/_irkom.scss */
+/* line 190, ../sass/_irkom.scss */
 .panel-heading h4 {
   color: #ffffff; }
 
-/* line 185, ../sass/_irkom.scss */
+/* line 194, ../sass/_irkom.scss */
 .title-bar {
   background: url(../img/showcase.jpg) no-repeat 0 -300px;
   padding-bottom: 10px;
   border-bottom: 4px solid #28bfca; }
 
-/* line 191, ../sass/_irkom.scss */
+/* line 200, ../sass/_irkom.scss */
 .main {
   margin-top: 30px; }
 
-/* line 195, ../sass/_irkom.scss */
+/* line 204, ../sass/_irkom.scss */
 .bigheader {
   margin-top: 20px; }
 
-/* line 199, ../sass/_irkom.scss */
+/* line 208, ../sass/_irkom.scss */
 .jumbotron {
   margin-top: 20px;
   background: #a9e5e9;
   color: #0F0F0F; }
 
-/* line 206, ../sass/_irkom.scss */
+/* line 215, ../sass/_irkom.scss */
 #myCarousel {
   margin-top: 50px; }
 
-/* line 209, ../sass/_irkom.scss */
+/* line 218, ../sass/_irkom.scss */
 .carousel {
   margin-bottom: 0; }
-  /* line 211, ../sass/_irkom.scss */
+  /* line 220, ../sass/_irkom.scss */
   .carousel a {
     color: #ffffff !important; }
-  /* line 214, ../sass/_irkom.scss */
+  /* line 223, ../sass/_irkom.scss */
   .carousel .fa {
     font-size: 18px; }
 
-/* line 221, ../sass/_irkom.scss */
+/* line 230, ../sass/_irkom.scss */
 .carousel-inner .item img {
   width: 100%;
   max-width: 100%;
@@ -10883,23 +10892,23 @@ html, body {
   background-size: cover;
   margin: 0 auto;
   transition: 0.3s ease-in-out left; }
-/* line 232, ../sass/_irkom.scss */
+/* line 241, ../sass/_irkom.scss */
 .carousel-inner .item .container .irkom-caption {
   padding-bottom: 150px; }
-  /* line 233, ../sass/_irkom.scss */
+  /* line 242, ../sass/_irkom.scss */
   .carousel-inner .item .container .irkom-caption p {
     font-size: 25px; }
 
-/* line 242, ../sass/_irkom.scss */
+/* line 251, ../sass/_irkom.scss */
 .thumbnail {
   padding: 5; }
 
-/* line 246, ../sass/_irkom.scss */
+/* line 255, ../sass/_irkom.scss */
 .thumbnail .caption-full {
   padding: 9px;
   color: #333; }
 
-/* line 251, ../sass/_irkom.scss */
+/* line 260, ../sass/_irkom.scss */
 .card-author {
   border-top: 1px solid #ccc;
   padding-top: 5px;
@@ -10907,7 +10916,7 @@ html, body {
   margin-top: 10px;
   margin-right: 20px; }
 
-/* line 259, ../sass/_irkom.scss */
+/* line 268, ../sass/_irkom.scss */
 .card-author-circle {
   max-width: 100%;
   width: 10%;
@@ -10925,7 +10934,7 @@ html, body {
   right: 0;
   bottom: 0; }
 
-/* line 288, ../sass/_irkom.scss */
+/* line 297, ../sass/_irkom.scss */
 .stories-author-circle {
   max-width: 100%;
   width: 5%;
@@ -10943,19 +10952,23 @@ html, body {
   right: 0;
   bottom: 0; }
 
-/* line 319, ../sass/_irkom.scss */
+/* line 328, ../sass/_irkom.scss */
 .panel img {
   margin-top: 5px; }
 
-/* line 323, ../sass/_irkom.scss */
+/* line 332, ../sass/_irkom.scss */
 .panel-footer {
   padding: 5px 5px; }
 
-/* line 330, ../sass/_irkom.scss */
+/* line 339, ../sass/_irkom.scss */
 .blog-header {
   margin-top: 100px; }
 
-/* line 336, ../sass/_irkom.scss */
+/* line 343, ../sass/_irkom.scss */
+.irkom-heading {
+  padding: 5px 8px; }
+
+/* line 349, ../sass/_irkom.scss */
 .irkom-docs-example {
   position: relative;
   margin: 15px 0;
@@ -10966,7 +10979,7 @@ html, body {
   -moz-border-radius: 4px;
   border-radius: 4px;
   color: black; }
-  /* line 348, ../sass/_irkom.scss */
+  /* line 361, ../sass/_irkom.scss */
   .irkom-docs-example pre {
     font-family: Consolas, monaco, monospace;
     font-size: 13px;
@@ -10974,7 +10987,7 @@ html, body {
     font-variant: normal;
     line-height: 18.5714px; }
 
-/* line 357, ../sass/_irkom.scss */
+/* line 370, ../sass/_irkom.scss */
 .irkom-docs-example::after {
   content: attr(data-content);
   position: absolute;
@@ -10990,7 +11003,7 @@ html, body {
   -moz-border-radius: 4px 0 4px 0;
   border-radius: 4px 0 4px 0; }
 
-/* line 374, ../sass/_irkom.scss */
+/* line 387, ../sass/_irkom.scss */
 .irkom-docs-result {
   position: relative;
   padding: 29px 15px 10px;
@@ -11001,7 +11014,7 @@ html, body {
   border-radius: 4px;
   color: black; }
 
-/* line 386, ../sass/_irkom.scss */
+/* line 399, ../sass/_irkom.scss */
 .irkom-docs-result::after {
   content: attr(data-content);
   position: absolute;
@@ -11018,8 +11031,128 @@ html, body {
   border-radius: 4px 0 4px 0;
   font-family: Consolas, monaco, monospace; }
 
-/* line 409, ../sass/_irkom.scss */
-footer {
+/* line 423, ../sass/_irkom.scss */
+.block-update-card {
+  height: 100%;
+  border: 1px #FFFFFF solid;
+  width: 100%;
+  float: left;
+  margin-top: 5px;
+  padding: 0;
+  margin-bottom: 5px;
+  box-shadow: 1px 1px 8px #d8d8d8;
+  background-color: #FFFFFF; }
+
+/* line 434, ../sass/_irkom.scss */
+.block-update-card .h-status {
+  width: 100%;
+  height: 7px;
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px); }
+
+/* line 439, ../sass/_irkom.scss */
+.block-update-card .v-status {
+  width: 5px;
+  height: 80px;
+  float: left;
+  margin-right: 5px;
+  background: repeating-linear-gradient(45deg, #606dbc, #606dbc 10px, #465298 10px, #465298 20px); }
+
+/* line 446, ../sass/_irkom.scss */
+.block-update-card .update-card-MDimentions {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px; }
+
+/* line 451, ../sass/_irkom.scss */
+.block-update-card .update-card-body {
+  margin-top: 10px;
+  margin-left: 5px; }
+
+/* line 455, ../sass/_irkom.scss */
+.block-update-card .update-card-body h4 {
+  color: #737373;
+  font-weight: bold;
+  font-size: 13px; }
+
+/* line 460, ../sass/_irkom.scss */
+.block-update-card .update-card-body p {
+  color: #737373;
+  font-size: 12px; }
+
+/* line 464, ../sass/_irkom.scss */
+.block-update-card .card-action-pellet {
+  padding: 5px; }
+
+/* line 467, ../sass/_irkom.scss */
+.block-update-card .card-action-pellet div {
+  margin-right: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  color: #dddddd; }
+
+/* line 473, ../sass/_irkom.scss */
+.block-update-card .card-action-pellet div:hover {
+  color: #999999; }
+
+/* line 476, ../sass/_irkom.scss */
+.block-update-card .card-bottom-status {
+  color: #a9a9aa;
+  font-weight: bold;
+  font-size: 14px;
+  border-top: #e0e0e0 1px solid;
+  padding-top: 5px;
+  margin: 0px; }
+
+/* line 484, ../sass/_irkom.scss */
+.block-update-card .card-bottom-status:hover {
+  background-color: #dd4b39;
+  color: #FFFFFF;
+  cursor: pointer; }
+
+/*
+Creating a block for social media buttons
+*/
+/* line 493, ../sass/_irkom.scss */
+.card-body-social {
+  font-size: 30px;
+  margin-top: 10px; }
+
+/* line 497, ../sass/_irkom.scss */
+.card-body-social .git {
+  color: black;
+  cursor: pointer;
+  margin-left: 10px; }
+
+/* line 502, ../sass/_irkom.scss */
+.card-body-social .twitter {
+  color: #19C4FF;
+  cursor: pointer;
+  margin-left: 10px; }
+
+/* line 507, ../sass/_irkom.scss */
+.card-body-social .google-plus {
+  color: #DD4B39;
+  cursor: pointer;
+  margin-left: 10px; }
+
+/* line 512, ../sass/_irkom.scss */
+.card-body-social .facebook {
+  color: #49649F;
+  cursor: pointer;
+  margin-left: 10px; }
+
+/* line 517, ../sass/_irkom.scss */
+.card-body-social .linkedin {
+  color: #007BB6;
+  cursor: pointer;
+  margin-left: 10px; }
+
+/* line 523, ../sass/_irkom.scss */
+.music-card {
+  background-color: green; }
+
+/* line 529, ../sass/_irkom.scss */
+.irkom-footer {
   margin-top: 5px;
   padding: 15px 0;
   background: #20979f;

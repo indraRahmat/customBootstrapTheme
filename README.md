@@ -30,3 +30,6 @@ steps by steps
 
 6. install owl by bower
 - "> bower install owl --save"
+
+7. install clipboard by bower
+- "> bower install clipboard --save"
